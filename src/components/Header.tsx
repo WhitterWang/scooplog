@@ -19,9 +19,10 @@ export function Header({ locale, onLocaleChange, onAdd, onReset }: Props) {
           <button
             type="button"
             onClick={onReset}
-            className="hidden rounded-full px-3 py-2 text-sm font-semibold text-chocolate/70 transition hover:bg-white/70 hover:text-chocolate sm:inline-flex"
+            className="rounded-full px-2.5 py-2 text-xs font-semibold text-chocolate/70 transition hover:bg-white/70 hover:text-chocolate sm:px-3 sm:text-sm"
           >
-            {t(locale, 'resetData')}
+            <span className="sm:hidden">{t(locale, 'resetShort')}</span>
+            <span className="hidden sm:inline">{t(locale, 'resetData')}</span>
           </button>
           <button
             type="button"

@@ -60,15 +60,8 @@ export default function App() {
           onDelete={setPendingDelete}
           onClearFilters={() => setFilters(emptyFilters)}
         />
-        <footer className="flex flex-wrap items-center justify-between gap-3 pb-16 pt-4 text-xs font-semibold text-chocolate/40 sm:pb-6">
+        <footer className="flex flex-wrap items-center justify-between gap-3 pt-4 pb-24 text-xs font-semibold text-chocolate/40 sm:pb-6">
           <p>ScoopLog · {t(locale, 'appNameZh')}</p>
-          <button
-            type="button"
-            className="sm:hidden"
-            onClick={() => setPendingReset(true)}
-          >
-            {t(locale, 'resetData')}
-          </button>
         </footer>
       </main>
 

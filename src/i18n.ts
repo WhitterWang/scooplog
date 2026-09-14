@@ -41,6 +41,7 @@ export const messages = {
     noResultsBody: 'Try a different shop, flavor, or tag. Great gelato is still out there.',
     clearFilters: 'Clear filters',
     resetData: 'Reset sample journal',
+    resetShort: 'Reset',
     resetConfirmTitle: 'Restore sample scoops?',
     resetConfirmBody:
       'This replaces everything stored in this browser with the starter journal. Your own entries will be gone.',
@@ -96,6 +97,7 @@ export const messages = {
     noResultsBody: '换个店铺、口味或标签试试。好冰淇淋还在路上。',
     clearFilters: '清除筛选',
     resetData: '重置示例日记',
+    resetShort: '重置',
     resetConfirmTitle: '恢复示例记录？',
     resetConfirmBody: '这将用入门日记替换此浏览器中保存的全部内容，你自己的记录会消失。',
     resetConfirm: '恢复示例',

@@ -8,6 +8,8 @@ you actually ate, and keep the memory on this device.
 
 [Features](#features) · [Quick start](#quick-start) · [中文](#冰淇淋护照)
 
+![ScoopLog desktop UI](docs/screenshot-desktop.png)
+
 ## Why ScoopLog
 
 Most “ice cream” software is built for parlors. ScoopLog is built for the other
@@ -63,6 +65,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the
 
 ScoopLog 是一本只存在于你浏览器里的冰淇淋日记：给爱*吃*冰淇淋的人，
 不是给店主，也不是给调配方的人。记下店铺、口味、评分，盖上属于你的一页。
+
+![ScoopLog 中文界面](docs/screenshot-zh.png)
 
 ## 为什么做它
 

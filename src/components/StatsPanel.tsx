@@ -9,7 +9,7 @@ type Props = {
 
 export function StatsPanel({ locale, stats }: Props) {
   return (
-    <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <section className="grid grid-cols-2 gap-3 lg:grid-cols-4">
       <StatCard
         label={t(locale, 'totalScoops')}
         value={String(stats.total)}
@@ -50,7 +50,7 @@ function StatCard({
 }) {
   return (
     <article
-      className={`rounded-[1.6rem] bg-linear-to-br ${accent} p-4 shadow-[0_14px_30px_-22px_rgba(74,50,40,0.55)] ring-1 ring-chocolate/8`}
+      className={`min-w-0 rounded-[1.6rem] bg-linear-to-br ${accent} p-3 shadow-[0_14px_30px_-22px_rgba(74,50,40,0.55)] ring-1 ring-chocolate/8 sm:p-4`}
     >
       <p className="text-[0.7rem] font-bold tracking-[0.16em] text-chocolate/50 uppercase">
         {label}
@@ -80,7 +80,7 @@ function RankCard({
 }) {
   return (
     <article
-      className={`rounded-[1.6rem] bg-linear-to-br ${accent} p-4 shadow-[0_14px_30px_-22px_rgba(74,50,40,0.55)] ring-1 ring-chocolate/8`}
+      className={`min-w-0 rounded-[1.6rem] bg-linear-to-br ${accent} p-3 shadow-[0_14px_30px_-22px_rgba(74,50,40,0.55)] ring-1 ring-chocolate/8 sm:p-4`}
     >
       <p className="text-[0.7rem] font-bold tracking-[0.16em] text-chocolate/50 uppercase">
         {label}
