@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-rounded, system-ui, sans-serif;
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --color-cream: #fbf4e8;
+  --color-butter: #f3e2c4;
+  --color-strawberry: #d97880;
+  --color-pistachio: #8fb88a;
+  --color-caramel: #c4894a;
+  --color-chocolate: #4a3228;
+  --color-rose: #f6d6d2;
+  --color-mint: #d7ebd0;
+  --color-sky: #c9d7e4;
+}
+
+html {
+  background: #fbf4e8;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100svh;
+  color: #4a3228;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #f8e3d8 0%, transparent 55%),
+    radial-gradient(900px 500px at 110% 0%, #e7f0d8 0%, transparent 50%),
+    #fbf4e8;
+  font-family: var(--font-sans);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+.field-input {
+  width: 100%;
+  border-radius: 1rem;
+  border: 0;
+  background: white;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a3228;
+  outline: none;
+  box-shadow: inset 0 0 0 1px rgba(74, 50, 40, 0.1);
+}
+
+.field-input:focus {
+  box-shadow: inset 0 0 0 2px rgba(217, 120, 128, 0.55);
+}
+
+.field-input::placeholder {
+  font-weight: 500;
+  color: rgba(74, 50, 40, 0.35);
+}
+
+.ticket-notch {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #fbf4e8;
+  box-shadow: inset -1px 0 0 rgba(74, 50, 40, 0.08);
+  transform: translateY(-50%);
+}
+
+button,
+select,
+input,
+textarea {
+  font-family: inherit;
+}
+
+::selection {
+  background: #f6d6d2;
+}

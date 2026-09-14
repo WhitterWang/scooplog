@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in ScoopLog is not working as expected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the passport honest. Please search existing issues first.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ScoopLog
+        2. Log a scoop
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: locale
+    attributes:
+      label: UI language
+      options:
+        - English
+        - 中文
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and OS
+      placeholder: "Firefox 131 on macOS, Chrome on Android, …"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context
+      description: Screenshots, console errors, or whether Reset sample journal changes anything.

@@ -1,0 +1,45 @@
+{
+  "name": "scooplog",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A local-first personal ice cream journal — ScoopLog 冰淇淋护照. For Gelato People by Gelato People.",
+  "author": "ScoopLog contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhitterWang/scooplog.git"
+  },
+  "homepage": "https://github.com/WhitterWang/scooplog",
+  "bugs": {
+    "url": "https://github.com/WhitterWang/scooplog/issues"
+  },
+  "keywords": [
+    "ice-cream",
+    "gelato",
+    "journal",
+    "local-first",
+    "react"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.1.13",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.0"
+  }
+}
