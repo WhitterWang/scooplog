@@ -1,0 +1,38 @@
+name: Feature request
+description: An idea that would help people who eat ice cream
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ScoopLog is a personal eating journal. Features for shop owners or
+        formulators are usually out of scope — see CONTRIBUTING.md.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Who is this for?
+      description: Which eater problem does this solve? A short scene helps.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should ScoopLog do?
+      description: Describe the behavior. Keep it local-first unless you are proposing an optional extra.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Filters, tags, notes, or something that already exists?
+  - type: checkboxes
+    id: audience
+    attributes:
+      label: This is for
+      options:
+        - label: People logging ice cream they ate
+          required: true
+        - label: I have read CONTRIBUTING.md
+          required: true

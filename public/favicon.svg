@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ScoopLog">
+  <rect width="64" height="64" rx="16" fill="#FBF4E8"/>
+  <path d="M24 40h16l-3.2 16.5a6 6 0 0 1-5.9 4.8h2.2a6 6 0 0 1-5.9-4.8L24 40z" fill="#E8B86D"/>
+  <circle cx="32" cy="28" r="16" fill="#E89A9A"/>
+  <circle cx="22" cy="30" r="11" fill="#A8C99A"/>
+  <circle cx="42" cy="30" r="11" fill="#F5D76E"/>
+  <circle cx="32" cy="22" r="4" fill="#fff" opacity=".45"/>
+</svg>
